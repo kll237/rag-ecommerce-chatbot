@@ -13,17 +13,55 @@
 
 > 以下截图为在本地运行真实前后端后捕获的实际界面。
 
-### 智能对话与商品推荐
+### 1. 智能对话首页
 
-![聊天界面](docs/screenshots/chat.png)
+![智能对话首页](docs/screenshots/chat-home.png)
 
-### 购物车
+### 2. 商品推荐结果
 
-![购物车](docs/screenshots/cart.png)
+输入需求后，系统基于 RAG 检索并返回推荐商品卡片。
 
-### 数据分析
+![商品推荐结果](docs/screenshots/chat-recommendation.png)
 
-![数据分析](docs/screenshots/analytics.png)
+### 3. 商品卡片操作
+
+支持一键加入购物车与收藏。
+
+![商品卡片操作](docs/screenshots/chat-product-actions.png)
+
+### 4. 购物车
+
+![购物车](docs/screenshots/cart-real.png)
+
+### 5. 收藏/心愿单
+
+![收藏/心愿单](docs/screenshots/wishlist-real.png)
+
+### 6. 数据分析概览
+
+![数据分析概览](docs/screenshots/analytics-overview.png)
+
+### 7. 数据分析图表详情
+
+![数据分析图表详情](docs/screenshots/analytics-charts.png)
+
+### 8. 导出对话历史
+
+![导出对话历史](docs/screenshots/export-history-modal.png)
+
+### 9. 设置（主题 / 语言 / TTS）
+
+![设置](docs/screenshots/settings-modal.png)
+
+### 10. 用户反馈
+
+对助手回复点赞 / 点踩 / 一般反馈。
+
+![用户反馈](docs/screenshots/feedback.png)
+
+### 11. API 文档（Swagger）
+
+![API 文档](docs/screenshots/api-docs.png)
 
 ---
 
