@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品推荐测试页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .test-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: translateY(0);
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .result-section {
+            margin-top: 20px;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .json-display {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin-bottom: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: translateY(-4px);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        .product-price {
+            color: #e74c3c;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .product-desc {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .product-id-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        .diagnostic-info {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 10px;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        .diagnostic-info.healthy {
+            background: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .diagnostic-info.warning {
+            background: #fff3cd;
+            border-color: #ffeaa7;
+        }
+        .diagnostic-info.error {
+            background: #f8d7da;
+            border-color: #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 商品推荐系统测试工具</h1>
+
+        <div class="test-section">
+            <h2>测试查询</h2>
+            <div class="input-group">
+                <input type="text" id="queryInput" placeholder="输入查询内容，例如：推荐手机、性价比高的笔记本..." value="推荐手机">
+                <button id="testBtn" onclick="testQuery()">测试查询</button>
+            </div>
+
+            <div class="result-section">
+                <div id="status" class="status info">准备就绪，点击"测试查询"开始测试</div>
+
+                <div id="jsonResult" style="display: none;">
+                    <h3>API响应数据（JSON）：</h3>
+                    <div class="json-display" id="jsonContent"></div>
+                </div>
+
+                <div id="productsResult" style="display: none;">
+                    <h3>推荐商品展示：</h3>
+                    <div class="products-grid" id="productsGrid"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>数据库诊断</h2>
+            <div class="input-group">
+                <button onclick="checkDatabase()">检查数据库状态</button>
+            </div>
+            <div id="dbStatus"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:8000';
+
+        async function testQuery() {
+            const queryInput = document.getElementById('queryInput');
+            const query = queryInput.value.trim();
+            const statusEl = document.getElementById('status');
+            const jsonResult = document.getElementById('jsonResult');
+            const jsonContent = document.getElementById('jsonContent');
+            const productsResult = document.getElementById('productsResult');
+            const productsGrid = document.getElementById('productsGrid');
+            const testBtn = document.getElementById('testBtn');
+
+            if (!query) {
+                statusEl.className = 'status error';
+                statusEl.textContent = '请输入查询内容';
+                return;
+            }
+
+            // 禁用按钮
+            testBtn.disabled = true;
+            testBtn.textContent = '测试中...';
+
+            statusEl.className = 'status info';
+            statusEl.textContent = '正在查询：' + query;
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/chat/query`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        session_id: 'test-session',
+                        top_k: 3
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                // 显示JSON响应
+                jsonResult.style.display = 'block';
+                jsonContent.textContent = JSON.stringify(data, null, 2);
+
+                // 显示商品推荐
+                if (data.suggested_products && data.suggested_products.length > 0) {
+                    productsResult.style.display = 'block';
+                    productsGrid.innerHTML = '';
+
+                    data.suggested_products.forEach((product, index) => {
+                        const hasValidId = product.id !== undefined && product.id !== null && typeof product.id === 'number';
+
+                        let diagnosticClass = 'error';
+                        let diagnosticText = '';
+                        if (hasValidId) {
+                            diagnosticClass = 'healthy';
+                            diagnosticText = '✅ 商品ID有效，功能正常';
+                        } else {
+                            diagnosticText = '❌ 商品ID缺失或无效，收藏和购物车功能将不可用';
+                        }
+
+                        const imageUrl = product.image_url || '/assets/default-product.png';
+                        const productCard = `
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="${imageUrl}" alt="${product.name}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📦</text></svg>'">
+                                </div>
+                                <div class="product-info">
+                                    <span class="product-id-badge">ID: ${product.id || '无'}</span>
+                                    <div class="product-name">${product.name}</div>
+                                    ${product.price ? `<div class="product-price">¥${product.price.toFixed(2)}</div>` : ''}
+                                    <div class="product-desc">${product.description || '暂无描述'}</div>
+                                    <div class="diagnostic-info ${diagnosticClass}">
+                                        <strong>诊断信息：</strong><br>
+                                        ${diagnosticText}<br>
+                                        - product.id: ${product.id} (类型: ${typeof product.id})<br>
+                                        - product.product_id: ${product.product_id}<br>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        productsGrid.innerHTML += productCard;
+                    });
+
+                    statusEl.className = 'status success';
+                    statusEl.textContent = `✅ 查询成功！返回 ${data.suggested_products.length} 个推荐商品`;
+                } else {
+                    productsResult.style.display = 'block';
+                    productsGrid.innerHTML = '<p style="padding: 20px; text-align: center; color: #666;">未找到相关商品</p>';
+                    statusEl.className = 'status info';
+                    statusEl.textContent = '✅ 查询成功，但未找到相关商品';
+                }
+
+            } catch (error) {
+                statusEl.className = 'status error';
+                statusEl.textContent = `❌ 查询失败：${error.message}`;
+                jsonResult.style.display = 'none';
+                productsResult.style.display = 'none';
+
+                if (error.message.includes('Failed to fetch')) {
+                    statusEl.textContent += '\n请确保后端服务已启动（http://localhost:8000）';
+                }
+            } finally {
+                testBtn.disabled = false;
+                testBtn.textContent = '测试查询';
+            }
+        }
+
+        async function checkDatabase() {
+            const dbStatus = document.getElementById('dbStatus');
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/products?limit=100`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const products = await response.json();
+
+                if (products.length === 0) {
+                    dbStatus.innerHTML = `
+                        <div class="status error">
+                            <strong>数据库状态：❌ 空</strong><br>
+                            数据库中没有商品数据！<br><br>
+                            <strong>解决方法：</strong><br>
+                            运行命令：<code>python backend/init_all.py</code>
+                        </div>
+                    `;
+                } else {
+                    const productsWithValidId = products.filter(p => p.id !== undefined && p.id !== null);
+                    const productsWithoutId = products.filter(p => p.id === undefined || p.id === null);
+
+                    dbStatus.innerHTML = `
+                        <div class="status success">
+                            <strong>数据库状态：✅ 正常</strong><br>
+                            - 总商品数：${products.length}<br>
+                            - 有效ID商品数：${productsWithValidId.length}<br>
+                            - 缺少ID商品数：${productsWithoutId.length}<br><br>
+                            ${productsWithoutId.length > 0 ?
+                                '<strong>⚠️ 警告：部分商品缺少ID，需要重新初始化数据库</strong><br>' :
+                                '<strong>✅ 所有商品都有有效ID，系统正常运行</strong><br>'
+                            }
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                dbStatus.innerHTML = `
+                    <div class="status error">
+                        <strong>数据库检查失败：${error.message}</strong><br><br>
+                        请确保：<br>
+                        1. 后端服务已启动<br>
+                        2. 端口8000可访问
+                    </div>
+                `;
+            }
+        }
+
+        // 页面加载时自动检查数据库
+        window.onload = function() {
+            checkDatabase();
+        };
+    </script>
+</body>
+</html>

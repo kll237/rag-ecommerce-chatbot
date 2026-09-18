@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "p001",
+    "name": "苹果iPhone 15 Pro Max",
+    "category": "手机数码",
+    "price": 9999.0,
+    "description": "A17 Pro芯片，钛金属边框，8K视频拍摄，超视网膜XDR显示屏，全天候电池续航。支持5G网络，面部识别。",
+    "features": [],
+    "inventory": 100,
+    "image_url": "/assets/p001.jpg"
+  },
+  {
+    "id": "p002",
+    "name": "华为Mate 60 Pro",
+    "category": "手机数码",
+    "price": 6999.0,
+    "description": "卫星通话功能，鸿蒙系统，麒麟9000S芯片，昆仑玻璃，超聚光影像，5000mAh大电池。",
+    "features": [],
+    "inventory": 150,
+    "image_url": "/assets/p002.jpg"
+  },
+  {
+    "id": "p003",
+    "name": "小米14 Ultra",
+    "category": "手机数码",
+    "price": 6499.0,
+    "description": "徕卡光学镜头，骁龙8 Gen3处理器，2K AMOLED曲面屏，120W快充，IP68防水。",
+    "features": [],
+    "inventory": 80,
+    "image_url": "/assets/p003.jpg"
+  },
+  {
+    "id": "p004",
+    "name": "OPPO Find X7 Ultra",
+    "category": "手机数码",
+    "price": 5999.0,
+    "description": "哈苏影像系统，双潜望长焦，骁龙8 Gen3，2K曲面屏，100W快充，马里亚纳芯片。",
+    "features": [],
+    "inventory": 90,
+    "image_url": "/assets/p004.jpg"
+  },
+  {
+    "id": "p005",
+    "name": "vivo X100 Pro",
+    "category": "手机数码",
+    "price": 5499.0,
+    "description": "蔡司一英寸主摄，蓝海电池技术，天玑9300处理器，120W快充，超声波指纹。",
+    "features": [],
+    "inventory": 110,
+    "image_url": "/assets/p005.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "荣耀Magic 6 Pro",
+    "category": "手机数码",
+    "price": 5699.0,
+    "description": "单反级鹰眼相机，自研射频增强芯片，骁龙8 Gen3，5800mAh大电池，100W快充。",
+    "features": [],
+    "inventory": 95,
+    "image_url": "/assets/p006.jpg"
+  },
+  {
+    "id": "p007",
+    "name": "三星Galaxy S24 Ultra",
+    "category": "手机数码",
+    "price": 8999.0,
+    "description": "AI手机，2亿像素主摄，S Pen内置，骁龙8 Gen3 for Galaxy，钛金属边框。",
+    "features": [],
+    "inventory": 70,
+    "image_url": "/assets/p007.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "一加12",
+    "category": "手机数码",
+    "price": 4299.0,
+    "description": "哈苏全焦段影像，第三代骁龙8，航天级天工散热系统，100W闪充，6.82英寸2K屏幕。",
+    "features": [],
+    "inventory": 120,
+    "image_url": "/assets/p008.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "红米K70 Pro",
+    "category": "手机数码",
+    "price": 3299.0,
+    "description": "骁龙8 Gen3，2K屏幕，120W快充，5000mAh电池，光影猎人800主摄。",
+    "features": [],
+    "inventory": 200,
+    "image_url": "/assets/p009.jpg"
+  },
+  {
+    "id": "p010",
+    "name": "realme GT5 Pro",
+    "category": "手机数码",
+    "price": 3399.0,
+    "description": "骁龙8 Gen3，IMX890超光影长焦，5400mAh大电池，100W快充，1.5K曲面屏。",
+    "features": [],
+    "inventory": 130,
+    "image_url": "/assets/p010.jpg"
+  },
+  {
+    "id": "p011",
+    "name": "MacBook Pro 16英寸 M3 Max",
+    "category": "电脑办公",
+    "price": 21999.0,
+    "description": "M3 Max芯片，36GB内存，1TB SSD，16英寸XDR显示屏，最长22小时续航，支持多个外接显示器。",
+    "features": [],
+    "inventory": 50,
+    "image_url": "/assets/p011.jpg"
+  },
+  {
+    "id": "p012",
+    "name": "MacBook Air 15英寸 M3",
+    "category": "电脑办公",
+    "price": 12999.0,
+    "description": "M3芯片，8GB内存，256GB SSD，15.3英寸Liquid视网膜显示屏，18小时续航，轻薄便携。",
+    "features": [],
+    "inventory": 80,
+    "image_url": "/assets/p012.jpg"
+  },
+  {
+    "id": "p013",
+    "name": "联想ThinkPad X1 Carbon",
+    "category": "电脑办公",
+    "price": 12999.0,
+    "description": "Intel i7处理器，16GB内存，512GB SSD，14英寸4K屏幕，轻薄机身，军工级品质。",
+    "features": [],
+    "inventory": 60,
+    "image_url": "/assets/p013.jpg"
+  },
+  {
+    "id": "p014",
+    "name": "戴尔XPS 15",
+    "category": "电脑办公",
+    "price": 15999.0,
+    "description": "Intel i9处理器，32GB内存，1TB SSD，15.6英寸OLED 3.5K屏幕，窄边框设计。",
+    "features": [],
+    "inventory": 45,
+    "image_url": "/assets/p014.jpg"
+  },
+  {
+    "id": "p015",
+    "name": "华硕ROG幻16",
+    "category": "电脑办公",
+    "price": 11999.0,
+    "description": "AMD Ryzen 9处理器，RTX 4070显卡，16GB内存，16英寸星云屏，240Hz刷新率。",
+    "features": [],
+    "inventory": 55,
+    "image_url": "/assets/p015.jpg"
+  },
+  {
+    "id": "p016",
+    "name": "微软Surface Laptop 5",
+    "category": "电脑办公",
+    "price": 9999.0,
+    "description": "Intel i7处理器，16GB内存，512GB SSD，13.5英寸PixelSense触控屏，触控笔支持。",
+    "features": [],
+    "inventory": 65,
+    "image_url": "/assets/p016.jpg"
+  },
+  {
+    "id": "p017",
+    "name": "惠普Envy 13",
+    "category": "电脑办公",
+    "price": 6999.0,
+    "description": "Intel i7处理器，16GB内存，1TB SSD，13.3英寸OLED屏幕，轻薄便携，1.3kg重量。",
+    "features": [],
+    "inventory": 75,
+    "image_url": "/assets/p017.jpg"
+  },
+  {
+    "id": "p018",
+    "name": "华为MateBook X Pro",
+    "category": "电脑办公",
+    "price": 9999.0,
+    "description": "Intel i7处理器，16GB内存，1TB SSD，13.9英寸3K触控屏，超轻薄设计，隐藏式摄像头。",
+    "features": [],
+    "inventory": 40,
+    "image_url": "/assets/p018.jpg"
+  },
+  {
+    "id": "p019",
+    "name": "LG Gram 17",
+    "category": "电脑办公",
+    "price": 8999.0,
+    "description": "Intel i7处理器，16GB内存，1TB SSD，17英寸IPS屏幕，仅1.35kg重量，超长续航。",
+    "features": [],
+    "inventory": 50,
+    "image_url": "/assets/p019.jpg"
+  },
+  {
+    "id": "p020",
+    "name": "雷蛇Blade 15",
+    "category": "电脑办公",
+    "price": 14999.0,
+    "description": "Intel i9处理器，RTX 4080显卡，32GB内存，15.6英寸QHD 240Hz屏幕，电竞笔记本。",
+    "features": [],
+    "inventory": 35,
+    "image_url": "/assets/p020.jpg"
+  },
+  {
+    "id": "p021",
+    "name": "索尼WH-1000XM5降噪耳机",
+    "category": "数码配件",
+    "price": 2499.0,
+    "description": "业界领先的降噪效果，30小时续航，舒适佩戴，支持高清音频，多点连接。",
+    "features": [],
+    "inventory": 200,
+    "image_url": "/assets/p021.jpg"
+  },
+  {
+    "id": "p022",
+    "name": "AirPods Pro 2",
+    "category": "数码配件",
+    "price": 1899.0,
+    "description": "主动降噪，通透模式，个性化空间音频，6小时续航，MagSafe充电盒。",
+    "features": [],
+    "inventory": 300,
+    "image_url": "/assets/p022.jpg"
+  },
+  {
+    "id": "p023",
+    "name": "华为FreeBuds Pro 3",
+    "category": "数码配件",
+    "price": 1499.0,
+    "description": "超CD级无损音质，智慧动态降噪，33小时续航，IP54防水，双设备连接。",
+    "features": [],
+    "inventory": 250,
+    "image_url": "/assets/p023.jpg"
+  },
+  {
+    "id": "p024",
+    "name": "Bose QC45耳机",
+    "category": "数码配件",
+    "price": 2299.0,
+    "description": "ANC主动降噪，24小时续航，舒适佩戴，支持蓝牙5.1，多设备切换。",
+    "features": [],
+    "inventory": 180,
+    "image_url": "/assets/p024.jpg"
+  },
+  {
+    "id": "p025",
+    "name": "罗技MX Master 3S鼠标",
+    "category": "数码配件",
+    "price": 699.0,
+    "description": "8K DPI传感器，静音按键，快速充电，无线接收器，多电脑控制，跨设备复制粘贴。",
+    "features": [],
+    "inventory": 220,
+    "image_url": "/assets/p025.jpg"
+  },
+  {
+    "id": "p026",
+    "name": "Keychron K2键盘",
+    "category": "数码配件",
+    "price": 599.0,
+    "description": "75%布局，蓝牙5.1有线双模，RGB背光，Gateron机械轴，240小时续航，热插拔。",
+    "features": [],
+    "inventory": 190,
+    "image_url": "/assets/p026.jpg"
+  },
+  {
+    "id": "p027",
+    "name": "Anker PowerCore 20000充电宝",
+    "category": "数码配件",
+    "price": 299.0,
+    "description": "20000mAh大容量，PD快充，双向快充，多设备兼容，小巧便携，数字电量显示。",
+    "features": [],
+    "inventory": 400,
+    "image_url": "/assets/p027.jpg"
+  },
+  {
+    "id": "p028",
+    "name": "绿联扩展坞",
+    "category": "数码配件",
+    "price": 199.0,
+    "description": "11合1扩展，HDMI 4K输出，USB 3.0高速传输，PD 100W充电，兼容Mac和Windows。",
+    "features": [],
+    "inventory": 350,
+    "image_url": "/assets/p028.jpg"
+  },
+  {
+    "id": "p029",
+    "name": "闪迪至尊超极速SD卡",
+    "category": "数码配件",
+    "price": 899.0,
+    "description": "128GB容量，UHS-II V90速度等级，300MB/s读取速度，专业摄影摄像必备。",
+    "features": [],
+    "inventory": 150,
+    "image_url": "/assets/p029.jpg"
+  },
+  {
+    "id": "p030",
+    "name": "戴森V15 Detect吸尘器",
+    "category": "家用电器",
+    "price": 4990.0,
+    "description": "激光探测微尘，智能调速，60分钟续航，LCD屏幕实时显示，多种刷头配件。",
+    "features": [],
+    "inventory": 40,
+    "image_url": "/assets/p030.jpg"
+  },
+  {
+    "id": "p031",
+    "name": "美的微波炉",
+    "category": "家用电器",
+    "price": 599.0,
+    "description": "700W功率，23L容量，智能菜单，易清洁内胆，儿童安全锁，多种烹饪模式。",
+    "features": [],
+    "inventory": 500,
+    "image_url": "/assets/p031.jpg"
+  },
+  {
+    "id": "p032",
+    "name": "海尔冰箱BCD-535",
+    "category": "家用电器",
+    "price": 3599.0,
+    "description": "535升大容量，双变频节能，风冷无霜，智能控温，LED显示屏，静音运行。",
+    "features": [],
+    "inventory": 80,
+    "image_url": "/assets/p032.jpg"
+  },
+  {
+    "id": "p033",
+    "name": "格力空调1.5匹",
+    "category": "家用电器",
+    "price": 2999.0,
+    "description": "一级能效，变频冷暖，自清洁功能，远程控制，静音设计，快速制冷制热。",
+    "features": [],
+    "inventory": 120,
+    "image_url": "/assets/p033.jpg"
+  },
+  {
+    "id": "p034",
+    "name": "小天鹅洗衣机10kg",
+    "category": "家用电器",
+    "price": 2499.0,
+    "description": "10kg大容量，滚筒设计，变频电机，除菌除螨，智能洗涤，15分钟快洗。",
+    "features": [],
+    "inventory": 100,
+    "image_url": "/assets/p034.jpg"
+  },
+  {
+    "id": "p035",
+    "name": "九阳破壁机",
+    "category": "家用电器",
+    "price": 799.0,
+    "description": "1200W功率，4叶刀头，智能预约，静音降噪，多功能料理，易清洗。",
+    "features": [],
+    "inventory": 250,
+    "image_url": "/assets/p035.jpg"
+  },
+  {
+    "id": "p036",
+    "name": "苏泊尔电压力锅5L",
+    "category": "家用电器",
+    "price": 599.0,
+    "description": "5L容量，智能控压，多功能菜单，安全保护，省时省力，易清洁内胆。",
+    "features": [],
+    "inventory": 280,
+    "image_url": "/assets/p036.jpg"
+  },
+  {
+    "id": "p037",
+    "name": "飞利浦空气炸锅",
+    "category": "家用电器",
+    "price": 899.0,
+    "description": "4.1L容量，快速空气炸，低油健康，智能触控，易清洗，8种预设菜单。",
+    "features": [],
+    "inventory": 200,
+    "image_url": "/assets/p037.jpg"
+  },
+  {
+    "id": "p038",
+    "name": "松下吹风机",
+    "category": "家用电器",
+    "price": 399.0,
+    "description": "1800W功率，负离子护发，三档风速，冷热风切换，轻便易握，快干不伤发。",
+    "features": [],
+    "inventory": 300,
+    "image_url": "/assets/p038.jpg"
+  },
+  {
+    "id": "p039",
+    "name": "科沃斯扫地机器人",
+    "category": "家用电器",
+    "price": 1999.0,
+    "description": "激光导航，智能规划，扫拖一体，APP控制，自动回充，超薄设计。",
+    "features": [],
+    "inventory": 90,
+    "image_url": "/assets/p039.jpg"
+  },
+  {
+    "id": "p040",
+    "name": "小米空气净化器",
+    "category": "家用电器",
+    "price": 999.0,
+    "description": "高效除甲醛，PM2.5检测，HEPA滤网，低噪运行，APP远程控制，大净化面积。",
+    "features": [],
+    "inventory": 180,
+    "image_url": "/assets/p040.jpg"
+  },
+  {
+    "id": "p041",
+    "name": "Nike Air Jordan 1 High",
+    "category": "鞋帽服饰",
+    "price": 1299.0,
+    "description": "经典高帮设计，优质皮革材质，Air缓震技术，舒适透气，时尚百搭。",
+    "features": [],
+    "inventory": 100,
+    "image_url": "/assets/p041.jpg"
+  },
+  {
+    "id": "p042",
+    "name": "Adidas Ultraboost 22",
+    "category": "鞋帽服饰",
+    "price": 1099.0,
+    "description": "Boost中底缓震，Primeknit鞋面透气，Continental大底防滑，适合跑步和日常穿着。",
+    "features": [],
+    "inventory": 150,
+    "image_url": "/assets/p042.jpg"
+  },
+  {
+    "id": "p043",
+    "name": "New Balance 990v6",
+    "category": "鞋帽服饰",
+    "price": 1199.0,
+    "description": "复古跑鞋，ENCAP缓震技术，优质翻毛皮材质，舒适耐穿，美式风格。",
+    "features": [],
+    "inventory": 120,
+    "image_url": "/assets/p043.jpg"
+  },
+  {
+    "id": "p044",
+    "name": "Converse Chuck 70",
+    "category": "鞋帽服饰",
+    "price": 599.0,
+    "description": "经典帆布鞋，橡胶鞋头，加厚鞋垫，耐穿耐磨，街头潮流，多色可选。",
+    "features": [],
+    "inventory": 200,
+    "image_url": "/assets/p044.jpg"
+  },
+  {
+    "id": "p045",
+    "name": "Vans Old Skool",
+    "category": "鞋帽服饰",
+    "price": 549.0,
+    "description": "经典滑板鞋，耐磨华夫大底，侧面条纹设计，舒适耐穿，街头风格。",
+    "features": [],
+    "inventory": 180,
+    "image_url": "/assets/p045.jpg"
+  },
+  {
+    "id": "p046",
+    "name": "PUMA Suede Classic",
+    "category": "鞋帽服饰",
+    "price": 499.0,
+    "description": "经典麂皮鞋面，舒适衬里，橡胶大底，复古风格，百搭时尚。",
+    "features": [],
+    "inventory": 220,
+    "image_url": "/assets/p046.jpg"
+  },
+  {
+    "id": "p047",
+    "name": "Timberland大黄靴",
+    "category": "鞋帽服饰",
+    "price": 1499.0,
+    "description": "防水皮革，舒适鞋垫，抗疲劳鞋底，耐用性强，户外风格。",
+    "features": [],
+    "inventory": 90,
+    "image_url": "/assets/p047.jpg"
+  },
+  {
+    "id": "p048",
+    "name": "Nike Air Force 1",
+    "category": "鞋帽服饰",
+    "price": 799.0,
+    "description": "经典篮球鞋，Air缓震，皮革鞋面，舒适耐穿，百搭不挑人。",
+    "features": [],
+    "inventory": 160,
+    "image_url": "/assets/p048.jpg"
+  },
+  {
+    "id": "p049",
+    "name": "Adidas Stan Smith",
+    "category": "鞋帽服饰",
+    "price": 699.0,
+    "description": "经典小白鞋，绿色三叶草，舒适鞋垫，简约设计，时尚百搭。",
+    "features": [],
+    "inventory": 190,
+    "image_url": "/assets/p049.jpg"
+  },
+  {
+    "id": "p050",
+    "name": "Reebok Classic Leather",
+    "category": "鞋帽服饰",
+    "price": 649.0,
+    "description": "经典皮革休闲鞋，舒适鞋垫，耐磨大底，简约设计，复古风格。",
+    "features": [],
+    "inventory": 170,
+    "image_url": "/assets/p050.jpg"
+  },
+  {
+    "id": "p051",
+    "name": "雅诗兰黛小棕瓶精华",
+    "category": "美妆护肤",
+    "price": 890.0,
+    "description": "修护肌肤，抗氧化，紧致淡化细纹，提升肌肤弹性，适合所有肌肤类型。",
+    "features": [],
+    "inventory": 250,
+    "image_url": "/assets/p051.jpg"
+  },
+  {
+    "id": "p052",
+    "name": "SK-II神仙水",
+    "category": "美妆护肤",
+    "price": 1540.0,
+    "description": "改善肌肤质地，提亮肤色，平衡水油，增强肌肤屏障，蕴含Pitera精华成分。",
+    "features": [],
+    "inventory": 180,
+    "image_url": "/assets/p052.jpg"
+  },
+  {
+    "id": "p053",
+    "name": "兰蔻小黑瓶精华",
+    "category": "美妆护肤",
+    "price": 1080.0,
+    "description": "肌底修护，促进肌肤更新，淡化细纹，提升肌肤光泽，轻薄好吸收。",
+    "features": [],
+    "inventory": 200,
+    "image_url": "/assets/p053.jpg"
+  },
+  {
+    "id": "p054",
+    "name": "资生堂红腰子精华",
+    "category": "美妆护肤",
+    "price": 890.0,
+    "description": "修护肌肤屏障，提升肌肤免疫力，舒缓敏感，增强肌肤抵抗力，温和有效。",
+    "features": [],
+    "inventory": 220,
+    "image_url": "/assets/p054.jpg"
+  },
+  {
+    "id": "p055",
+    "name": "海蓝之谜面霜",
+    "category": "美妆护肤",
+    "price": 1800.0,
+    "description": "经典修护面霜， Miracle Broth精华，深度修护，保湿滋养，奢华体验。",
+    "features": [],
+    "inventory": 100,
+    "image_url": "/assets/p055.jpg"
+  },
+  {
+    "id": "p056",
+    "name": "迪奥999口红",
+    "category": "美妆护肤",
+    "price": 380.0,
+    "description": "经典正红色，哑光质地，持久不脱色，显白提气色，气场十足。",
+    "features": [],
+    "inventory": 300,
+    "image_url": "/assets/p056.jpg"
+  },
+  {
+    "id": "p057",
+    "name": "Chanel可可小姐唇膏",
+    "category": "美妆护肤",
+    "price": 420.0,
+    "description": "滋润舒适，显色饱满，持久不干燥，优雅香氛，时尚经典。",
+    "features": [],
+    "inventory": 280,
+    "image_url": "/assets/p057.jpg"
+  },
+  {
+    "id": "p058",
+    "name": "YSL小金条口红",
+    "category": "美妆护肤",
+    "price": 390.0,
+    "description": "金色管身设计，哑光丝绒质地，显色饱满，持久不脱色，奢华质感。",
+    "features": [],
+    "inventory": 260,
+    "image_url": "/assets/p058.jpg"
+  },
+  {
+    "id": "p059",
+    "name": "阿玛尼红管唇釉",
+    "category": "美妆护肤",
+    "price": 360.0,
+    "description": "丝绒哑光质地，显色饱满，滋润不拔干，持久不脱色，质感高级。",
+    "features": [],
+    "inventory": 290,
+    "image_url": "/assets/p059.jpg"
+  },
+  {
+    "id": "p060",
+    "name": "纪梵希小羊皮口红",
+    "category": "美妆护肤",
+    "price": 340.0,
+    "description": "小羊皮管身，丝滑质地，显色饱满，持久不脱色，高级质感。",
+    "features": [],
+    "inventory": 270,
+    "image_url": "/assets/p060.jpg"
+  },
+  {
+    "id": "p061",
+    "name": "Canon EOS R5相机",
+    "category": "摄影摄像",
+    "price": 25999.0,
+    "description": "4500万像素全画幅，8K视频录制，DIGIC X处理器，高速连拍，专业级画质。",
+    "features": [],
+    "inventory": 30,
+    "image_url": "/assets/p061.jpg"
+  },
+  {
+    "id": "p062",
+    "name": "大疆Mini 4 Pro无人机",
+    "category": "摄影摄像",
+    "price": 4788.0,
+    "description": "4K视频，20公里图传，全向避障，34分钟续航，折叠便携，轻巧设计。",
+    "features": [],
+    "inventory": 70,
+    "image_url": "/assets/p062.jpg"
+  },
+  {
+    "id": "p063",
+    "name": "索尼A7M4相机",
+    "category": "摄影摄像",
+    "price": 16999.0,
+    "description": "3300万像素全画幅，4K 60p视频，BIONZ XR处理器，实时眼部对焦，5轴防抖。",
+    "features": [],
+    "inventory": 50,
+    "image_url": "/assets/p063.jpg"
+  },
+  {
+    "id": "p064",
+    "name": "尼康Z8相机",
+    "category": "摄影摄像",
+    "price": 27999.0,
+    "description": "4500万像素全画幅，8K 60p视频，双处理器，专业级画质，坚固化机身。",
+    "features": [],
+    "inventory": 40,
+    "image_url": "/assets/p064.jpg"
+  },
+  {
+    "id": "p065",
+    "name": "富士X-T5相机",
+    "category": "摄影摄像",
+    "price": 12999.0,
+    "description": "4020万像素APS-C，复古设计，胶片模拟，6K 30p视频，五轴防抖。",
+    "features": [],
+    "inventory": 60,
+    "image_url": "/assets/p065.jpg"
+  },
+  {
+    "id": "p066",
+    "name": "GoPro Hero 12",
+    "category": "摄影摄像",
+    "price": 2998.0,
+    "description": "5.3K视频，27MP照片，HyperSmooth 6.0防抖，防水耐用，运动必备。",
+    "features": [],
+    "inventory": 100,
+    "image_url": "/assets/p066.jpg"
+  },
+  {
+    "id": "p067",
+    "name": "大疆Action 4",
+    "category": "摄影摄像",
+    "price": 1998.0,
+    "description": "4K 120p视频，10-bit色彩，360度地平线锁定，防水设计，运动相机。",
+    "features": [],
+    "inventory": 120,
+    "image_url": "/assets/p067.jpg"
+  },
+  {
+    "id": "p068",
+    "name": "Insta360 X4",
+    "category": "摄影摄像",
+    "price": 2898.0,
+    "description": "8K全景视频，5.7K 60p，AI智能剪辑，隐形自拍杆，360度拍摄。",
+    "features": [],
+    "inventory": 90,
+    "image_url": "/assets/p068.jpg"
+  },
+  {
+    "id": "p069",
+    "name": "大疆Ronin 4D",
+    "category": "摄影摄像",
+    "price": 29999.0,
+    "description": "6K全画幅，四轴云台，LiDAR对焦，专业稳定器，电影级拍摄。",
+    "features": [],
+    "inventory": 25,
+    "image_url": "/assets/p069.jpg"
+  },
+  {
+    "id": "p070",
+    "name": "索尼70-200 GM镜头",
+    "category": "摄影摄像",
+    "price": 18999.0,
+    "description": "大光圈长焦镜头，XD线性马达，轻量化设计，专业画质，人像和运动拍摄。",
+    "features": [],
+    "inventory": 35,
+    "image_url": "/assets/p070.jpg"
+  },
+  {
+    "id": "p071",
+    "name": "Kindle Paperwhite 5",
+    "category": "图书文具",
+    "price": 998.0,
+    "description": "6.8英寸墨水屏，冷暖光调节，IPX8防水，8周续航，海量图书资源。",
+    "features": [],
+    "inventory": 150,
+    "image_url": "/assets/p071.jpg"
+  },
+  {
+    "id": "p072",
+    "name": "晨光文具套装",
+    "category": "图书文具",
+    "price": 129.0,
+    "description": "中性笔10支，铅笔盒，笔记本，橡皮擦，尺子，圆规，学生必备。",
+    "features": [],
+    "inventory": 500,
+    "image_url": "/assets/p072.jpg"
+  },
+  {
+    "id": "p073",
+    "name": "三菱中性笔",
+    "category": "图书文具",
+    "price": 29.0,
+    "description": "0.5mm笔尖，流畅书写，不漏墨，耐摔耐压，办公学习必备。",
+    "features": [],
+    "inventory": 1000,
+    "image_url": "/assets/p073.jpg"
+  },
+  {
+    "id": "p074",
+    "name": "国誉笔记本",
+    "category": "图书文具",
+    "price": 69.0,
+    "description": "A5尺寸，80克纸张，180页，易书写不透墨，简洁设计。",
+    "features": [],
+    "inventory": 800,
+    "image_url": "/assets/p074.jpg"
+  },
+  {
+    "id": "p075",
+    "name": "得力订书机",
+    "category": "图书文具",
+    "price": 39.0,
+    "description": "省力设计，耐用耐用，订书针容量大，办公学习必备。",
+    "features": [],
+    "inventory": 600,
+    "image_url": "/assets/p075.jpg"
+  },
+  {
+    "id": "p076",
+    "name": "百乐可擦笔",
+    "category": "图书文具",
+    "price": 25.0,
+    "description": "可擦除笔迹，0.5mm笔尖，流畅书写，可热擦除，方便修改。",
+    "features": [],
+    "inventory": 900,
+    "image_url": "/assets/p076.jpg"
+  },
+  {
+    "id": "p077",
+    "name": "乐高积木套装",
+    "category": "图书文具",
+    "price": 499.0,
+    "description": "创意拼装，培养动手能力，亲子互动，益智玩具，多款可选。",
+    "features": [],
+    "inventory": 300,
+    "image_url": "/assets/p077.jpg"
+  },
+  {
+    "id": "p078",
+    "name": "3M便利贴",
+    "category": "图书文具",
+    "price": 19.0,
+    "description": "黄色便签纸，粘性强，易撕易贴，办公学习记事必备。",
+    "features": [],
+    "inventory": 1200,
+    "image_url": "/assets/p078.jpg"
+  },
+  {
+    "id": "p079",
+    "name": "米家签字笔",
+    "category": "图书文具",
+    "price": 9.9,
+    "description": "简约设计，流畅书写，性价比高，多色可选。",
+    "features": [],
+    "inventory": 1500,
+    "image_url": "/assets/p079.jpg"
+  },
+  {
+    "id": "p080",
+    "name": "得力文件夹",
+    "category": "图书文具",
+    "price": 15.0,
+    "description": "A4尺寸，多层收纳，透明设计，方便整理文件。",
+    "features": [],
+    "inventory": 1000,
+    "image_url": "/assets/p080.jpg"
+  },
+  {
+    "id": "p081",
+    "name": "女士羊毛大衣",
+    "category": "服装",
+    "price": 899.0,
+    "description": "优质羊毛面料，保暖舒适，A字版型显瘦，适合秋冬穿着。经典米白色，简约大方，适合职场和日常穿搭。",
+    "features": [],
+    "inventory": 80,
+    "image_url": "/assets/p081.jpg"
+  },
+  {
+    "id": "p082",
+    "name": "长款羽绒服女",
+    "category": "服装",
+    "price": 599.0,
+    "description": "90%白鸭绒填充，保暖不臃肿。蓬松舒适，防风防水，长款设计更保暖。多色可选，时尚实用。",
+    "features": [],
+    "inventory": 120,
+    "image_url": "/assets/p082.jpg"
+  },
+  {
+    "id": "p083",
+    "name": "羊毛针织开衫",
+    "category": "服装",
+    "price": 399.0,
+    "description": "柔软羊毛材质，亲肤舒适，宽松版型百搭。V领设计修饰脸型，适合春秋季节穿着。可搭配衬衫或T恤。",
+    "features": [],
+    "inventory": 150,
+    "image_url": "/assets/p083.jpg"
+  },
+  {
+    "id": "p084",
+    "name": "高腰阔腿裤女",
+    "category": "服装",
+    "price": 299.0,
+    "description": "高品质棉麻面料，透气舒适。高腰设计显高显瘦，阔腿版型修饰腿型。适合职场和休闲场合。",
+    "features": [],
+    "inventory": 200,
+    "image_url": "/assets/p084.jpg"
+  },
+  {
+    "id": "p085",
+    "name": "女士连衣裙",
+    "category": "服装",
+    "price": 459.0,
+    "description": "雪纺面料，飘逸优雅。A字版型显瘦，收腰设计凸显曲线。适合约会、聚会等场合，百搭时尚。",
+    "features": [],
+    "inventory": 100,
+    "image_url": "/assets/p085.jpg"
+  },
+  {
+    "id": "p086",
+    "name": "牛仔夹克女",
+    "category": "服装",
+    "price": 359.0,
+    "description": "经典牛仔面料，耐穿耐洗。短款设计显高，百搭不挑人。适合春秋季节，可搭配连衣裙、T恤等。",
+    "features": [],
+    "inventory": 180,
+    "image_url": "/assets/p086.jpg"
+  },
+  {
+    "id": "p087",
+    "name": "女士西装外套",
+    "category": "服装",
+    "price": 599.0,
+    "description": "高品质面料，挺括有型。剪裁合体，显瘦显高。适合职场和正式场合，内搭衬衫或T恤都很时尚。",
+    "features": [],
+    "inventory": 90,
+    "image_url": "/assets/p087.jpg"
+  },
+  {
+    "id": "p088",
+    "name": "男士商务西装",
+    "category": "服装",
+    "price": 1299.0,
+    "description": "精剪剪裁，修身版型。优质面料，挺括有型。适合商务、婚礼等正式场合，专业大气。",
+    "features": [],
+    "inventory": 70,
+    "image_url": "/assets/p088.jpg"
+  },
+  {
+    "id": "p089",
+    "name": "男士休闲衬衫",
+    "category": "服装",
+    "price": 399.0,
+    "description": "纯棉面料，透气舒适。经典款式，简约设计。适合日常穿着，搭配西装或休闲裤都很时尚。",
+    "features": [],
+    "inventory": 150,
+    "image_url": "/assets/p089.jpg"
+  },
+  {
+    "id": "p090",
+    "name": "男士休闲裤",
+    "category": "服装",
+    "price": 299.0,
+    "description": "高品质面料，挺括有型。修身版型，百搭时尚。适合职场和休闲场合，多色可选。",
+    "features": [],
+    "inventory": 180,
+    "image_url": "/assets/p090.jpg"
+  },
+  {
+    "id": "p091",
+    "name": "男士夹克",
+    "category": "服装",
+    "price": 699.0,
+    "description": "防风防水，保暖舒适。简约设计，时尚百搭。适合秋冬季节，可搭配休闲装。",
+    "features": [],
+    "inventory": 120,
+    "image_url": "/assets/p091.jpg"
+  },
+  {
+    "id": "p092",
+    "name": "卫衣男女同款",
+    "category": "服装",
+    "price": 299.0,
+    "description": "加绒保暖，舒适亲肤。休闲款式，时尚百搭。适合秋冬季节，多色可选。",
+    "features": [],
+    "inventory": 250,
+    "image_url": "/assets/p092.jpg"
+  },
+  {
+    "id": "p093",
+    "name": "运动T恤",
+    "category": "服装",
+    "price": 159.0,
+    "description": "透气面料，吸汗速干。简约设计，舒适运动。适合健身、跑步等运动。",
+    "features": [],
+    "inventory": 300,
+    "image_url": "/assets/p093.jpg"
+  },
+  {
+    "id": "p094",
+    "name": "运动短裤",
+    "category": "服装",
+    "price": 129.0,
+    "description": "透气面料，速干舒适。弹力腰围，运动无束缚。适合健身、跑步等运动。",
+    "features": [],
+    "inventory": 350,
+    "image_url": "/assets/p094.jpg"
+  },
+  {
+    "id": "p095",
+    "name": "瑜伽裤女",
+    "category": "服装",
+    "price": 199.0,
+    "description": "高腰设计，提臀塑形。弹力面料，舒适贴身。适合瑜伽、健身等运动。",
+    "features": [],
+    "inventory": 280,
+    "image_url": "/assets/p095.jpg"
+  },
+  {
+    "id": "p096",
+    "name": "睡衣套装",
+    "category": "服装",
+    "price": 159.0,
+    "description": "纯棉面料，亲肤舒适。宽松版型，居家必备。情侣款式，时尚温馨。",
+    "features": [],
+    "inventory": 400,
+    "image_url": "/assets/p096.jpg"
+  },
+  {
+    "id": "p097",
+    "name": "儿童卫衣",
+    "category": "服装",
+    "price": 129.0,
+    "description": "亲肤面料，安全环保。卡通图案，儿童喜爱。舒适保暖，适合秋冬季节。",
+    "features": [],
+    "inventory": 500,
+    "image_url": "/assets/p097.jpg"
+  },
+  {
+    "id": "p098",
+    "name": "儿童连衣裙",
+    "category": "服装",
+    "price": 149.0,
+    "description": "柔软面料，亲肤舒适。公主裙设计，可爱时尚。适合日常穿着和聚会。",
+    "features": [],
+    "inventory": 450,
+    "image_url": "/assets/p098.jpg"
+  },
+  {
+    "id": "p099",
+    "name": "儿童套装",
+    "category": "服装",
+    "price": 169.0,
+    "description": "一套包含上衣和裤子。亲肤面料，安全环保。时尚款式，儿童喜爱。",
+    "features": [],
+    "inventory": 550,
+    "image_url": "/assets/p099.jpg"
+  },
+  {
+    "id": "p100",
+    "name": "婴儿连体衣",
+    "category": "服装",
+    "price": 89.0,
+    "description": "纯棉面料，亲肤舒适。按扣设计，方便更换尿布。适合0-12个月婴儿。",
+    "features": [],
+    "inventory": 600,
+    "image_url": "/assets/p100.jpg"
+  }
+]

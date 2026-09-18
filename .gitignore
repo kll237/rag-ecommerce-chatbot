@@ -1,0 +1,54 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+.mockvenv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# 环境变量与密钥（切勿提交）
+.env
+.env.*
+!.env.example
+
+# 数据库与向量索引（本地生成，非源码）
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.faiss
+vector_store/
+backend/app/data/vector_store/
+
+# 构建产物
+dist/
+build/
+frontend/dist/
+node_modules/
+frontend/node_modules/
+
+# 编辑器和系统
+.vscode/
+.idea/
+.DS_Store
+
+# 临时/备份文件
+*.backup
+*.broken
+*.log
+Run
+
+# 演示商品图片（体积约 135 MB，运行 scripts/generate_demo_images.py 可在本地生成）
+frontend/public/assets/*.jpg
+frontend/public/assets/*.jpeg
+frontend/public/assets/*.png
+frontend/public/assets/*.webp
+frontend/public/assets/*.svg
+!frontend/public/assets/.gitkeep
+
+# Vite 运行时临时文件
+frontend/vite.config.js.timestamp-*.mjs
