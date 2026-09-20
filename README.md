@@ -23,43 +23,55 @@
 
 ![商品推荐结果](docs/screenshots/chat-recommendation.png)
 
-### 3. 商品卡片操作
+### 3. 商品推荐大图展示
+
+商品卡片在对话中展开大图，展示真实商品图片与完整描述。
+
+![商品推荐大图展示](docs/screenshots/chat-recommendation-large.png)
+
+### 4. 商品卡片操作
 
 支持一键加入购物车与收藏。
 
 ![商品卡片操作](docs/screenshots/chat-product-actions.png)
 
-### 4. 购物车
+### 5. 购物车
 
 ![购物车](docs/screenshots/cart-real.png)
 
-### 5. 收藏/心愿单
+### 6. 收藏/心愿单
 
 ![收藏/心愿单](docs/screenshots/wishlist-real.png)
 
-### 6. 数据分析概览
+### 7. 数据分析概览
 
 ![数据分析概览](docs/screenshots/analytics-overview.png)
 
-### 7. 数据分析图表详情
+### 8. 数据分析图表详情
 
 ![数据分析图表详情](docs/screenshots/analytics-charts.png)
 
-### 8. 导出对话历史
+### 9. 热门商品排行
+
+展示用户行为统计与热门商品 TOP 排行。
+
+![热门商品排行](docs/screenshots/analytics-top-products.png)
+
+### 10. 导出对话历史
 
 ![导出对话历史](docs/screenshots/export-history-modal.png)
 
-### 9. 设置（主题 / 语言 / TTS）
+### 11. 设置（主题 / 语言 / TTS）
 
 ![设置](docs/screenshots/settings-modal.png)
 
-### 10. 用户反馈
+### 12. 用户反馈
 
 对助手回复点赞 / 点踩 / 一般反馈。
 
 ![用户反馈](docs/screenshots/feedback.png)
 
-### 11. API 文档（Swagger）
+### 13. API 文档（Swagger）
 
 ![API 文档](docs/screenshots/api-docs.png)
 
